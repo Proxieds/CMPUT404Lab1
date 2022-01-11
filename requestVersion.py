@@ -1,6 +1,6 @@
 # CMPUT 404 Lab 1
-
 import requests
+
 # Part 1: Print out the version of the requests library
 print("Requests Version: " + requests.__version__)
 
