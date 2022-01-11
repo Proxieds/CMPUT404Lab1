@@ -10,3 +10,6 @@ r = requests.get(url = "http://google.com")
 print("Google Response:",r)
 
 # Part 3: Modify Python script so that it downloads itself from GitHub and prints out its own source code from GitHub.
+rawURL = "https://raw.githubusercontent.com/Proxieds/CMPUT404Lab1/main/requestVersion.py"
+request = requests.get(url = rawURL)
+print(request.content)
